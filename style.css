@@ -1,7 +1,105 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #e9dcff;
 }
 
 /* write your CSS here */
+
+body {
+  background: #1e1e1e;
+  font-family: "Inter", sans-serif;
+}
+
+.main_wrapper {
+  padding: 0 80px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+/* navbar logo making start */
+.logo_circle {
+  height: 40px;
+  width: 40px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  position: relative;
+}
+
+/* .logo_innerLine {
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-left: 2px solid black;
+  border-radius: 10px;
+  transform: rotate(30deg);
+  position: absolute;
+}
+
+.logo_innerLine2 {
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-left: 2px solid black;
+  border-radius: 10px;
+  transform: rotate(-30deg);
+  position: absolute;
+} */
+
+/* navbar logo making end  */
+
+/* navbar items start  */
+.nav_ul {
+  display: flex;
+}
+.nav_ul li {
+  list-style-type: none;
+}
+
+.nav_ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+}
+
+.nav_ul li a:hover {
+  color: var(--primary-color);
+}
+
+/* navbar items end  */
+
+/* navbar button side start  */
+.header_buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.header_buttons button {
+  background: var(--primary-color);
+  padding: 10px 20px;
+  font-size: 17px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.header_buttons button:hover {
+  background: #e9dcffc0;
+}
+
+/* navbar button side end  */
