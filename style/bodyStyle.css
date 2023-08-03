@@ -1,0 +1,38 @@
+.main_body_start {
+  margin-top: 100px;
+}
+
+.text_side p {
+  text-transform: uppercase;
+  color: #afa6bf;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.text_side h2 {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+.text_side button {
+  background: var(--primary-color);
+  padding: 10px 20px;
+  font-size: 17px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.text_side button:hover {
+  background: #e9dcffc0;
+}
+
+
