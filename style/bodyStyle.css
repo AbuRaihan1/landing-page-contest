@@ -38,14 +38,55 @@
 }
 
 .photo_side {
-  height: 400px;
-  width: 220px;
+  height: 500px;
+  width: 280px;
   border-radius: 20px;
   background: #1c272a;
   box-shadow: 20px 10px 30px -10px rgba(0, 0, 0, 0.3);
   position: relative;
-  
 }
+
+.history_main_title {
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.history_content {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+  color: white;
+}
+.icon_and_name {
+  display: flex;
+  gap: 20px;
+}
+.icon {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.day_name {
+  color: rgb(134, 126, 126);
+  font-size: 12px;
+  display: block;
+}
+
+.history_title h3 {
+  font-size: 16px;
+}
+.history_dollar {
+  font-weight: bold;
+}
+.icon {
+  background: var(--primary-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .bottom_nav {
   background: #2b2d3d;
   border-radius: 5px 5px 20px 20px;
@@ -54,11 +95,8 @@
   position: absolute;
   bottom: 1px;
   width: 100%;
-  
 }
 .bottom_nav_item {
   display: flex;
   justify-content: space-between;
 }
-
-
